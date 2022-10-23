@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="move.js" defer></script>
+</head>
+<body>
+    <div class="mainDiv">
+        <div id="titleDiv">ROCK PAPER SCISSORS</div>
+
+        <div class="optionsDiv">
+            <div><img class="optionsImages" id="scissor" src="scissors.png"></div>
+            <div><img class="optionsImages" id="rock" src="rock.png"></div>
+            <div><img class="optionsImages" id="paper" src="paper.png"></div>
+        </div>
+
+        <div class="displayDiv">
+            <div id="playerDiv"><img id="playerSelection" class="selectedImages" src="question.png"></div>
+            <div id="computerDiv"><img id="computerSelection" class="selectedImages" src="question.png"></div>
+        </div>
+
+        <div class="scoringDiv">
+            <div class="player-scoring-section">
+                <p id="player-score-title">Player Score</p>
+                <p id="score">0</p>
+            </div>
+            <div class="computer-scoring-section">
+                <p id="computer-score-title">Computer Score</p>
+                <p id="other-score">0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
